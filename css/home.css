@@ -4,7 +4,7 @@ body {
   background-color: #3b82f6;
   color: white;
   display: grid;
-  grid-template-rows: 100px, repeat(6, 500px);
+  grid-template-rows: 100px, repeat(6, 400px);
 }
 
 .navbar {
@@ -39,6 +39,7 @@ body {
 
 .navbar .menu a:hover {
   text-decoration: underline;
+  color: aliceblue;
 }
 
 .navbar .buttons {
@@ -55,7 +56,7 @@ body {
 }
 
 .navbar .login-button {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   border: none;
   padding: 5px 15px;
@@ -379,10 +380,10 @@ button:hover {
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.buttons button:hover {
-  background-color: #000;
+/* .buttons button:hover {
+  background-color: ;
   color: #fff; 
-}
+} */
 footer {
   padding: 40px 20px;
   text-align: center;
