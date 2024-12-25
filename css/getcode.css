@@ -6,13 +6,16 @@
   }
 
   body {
-    background-color: #0073b1;
+    background-color: #3b82f6;
     /* background-color: #f3f2ef; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding: 15px;
+  }
+  span{
+    font-size: large;
   }
 
   .container {
@@ -43,7 +46,7 @@
 
   .subheading {
     text-align: center;
-    font-size: 14px;
+    font-size: medium;
     color: #666666;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -123,12 +126,13 @@
 
   .footer {
     text-align: center;
-    font-size: 13px;
+    font-size: medium;
     color: #666666;
     margin-top: 20px;
   }
 
   .footer a {
+    font-size: medium;
     color: #0073b1;
     text-decoration: none;
   }
